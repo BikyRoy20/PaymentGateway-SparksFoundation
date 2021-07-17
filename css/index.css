@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav{
+    background-image:url(ghy.jpg);
+    display:flex;
+    justify-content: center;
+    min-height: 10px;
+    
+    position:sticky;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.nav h1{
+    font-size:50px;
+    margin-top:25px;
+    margin-right:500px;
+    color:white;
+}
+.sp{
+    color:white;
+}
+  
+.uls{
+    display:flex;
+    flex-direction:row;
+}
+.list{
+    padding:20px;
+    list-style:none;
+}
+.hr{
+    text-decoration: none;
+    padding:30px;
+    font-size:20px;
+    cursor:pointer;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sec{
+    width:100%;
+    height:200vh;
+    background: rgba(0, 0, 0, 0.1) center/ cover no-repeat url(ghy.jpg);
+    position:fixed;
+    justify-content: center;
+    text-align:center;
+    
+}
+#sec p{
+   font-size:20px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top:150px;
+   margin-top:20px;
+}
+#donate{
+    border:1px solid white;
+    padding:14px;
+    font-size:20px;
+    background:none;
+    border-radius:20%;
+    cursor:pointer;
+    color:white;
+    text-decoration:none;
+   
+}
+#donate:hover{
+    background:white;
+    color: rgb(58, 106, 196);
+    text-decoration:none;
+}
+.foot{
+    color:white;
+    
+    
+}
